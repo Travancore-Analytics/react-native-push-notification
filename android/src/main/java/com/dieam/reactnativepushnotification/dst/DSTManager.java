@@ -48,8 +48,8 @@ public class DSTManager {
             if (dstObject.getStart_week_day() != null & dstObject.getEnd_week_day() != null) {
                 String startWeekDay = dstObject.getStart_week_day().toUpperCase();
                 String endWeekDay = dstObject.getEnd_week_day().toUpperCase();
-                startDay = getDayFromWeekDay(startWeekDay, startMonth, year);// ie; LSAT_SUNDAY 28
-                endDay = getDayFromWeekDay(endWeekDay, startMonth, year);// ie; LAST_SUNDAY 28
+                startDay = getDayFromWeekDay(startWeekDay, startMonth, year);
+                endDay = getDayFromWeekDay(endWeekDay, startMonth, year);
             } else {
                 startDay = dstObject.getStart_day();
                 endDay = dstObject.getEnd_day();
@@ -73,7 +73,8 @@ public class DSTManager {
 
             if (currentCalendar.before(startCalendar)) {
                 scheduleDSTBroadCast(context, dst_start_request_code, startCalendar);
-                dst_start_request_code++;// scheduling multiple notifications if countries
+                dst_start_request_code++;// scheduling multiple notifications if countries have
+                //more than one dst start time
             } else if (currentCalendar.before(endCalendar)) {
                 scheduleDSTBroadCast(context, dst_end_request_code, endCalendar);
                 dst_end_request_code++;
@@ -106,7 +107,7 @@ public class DSTManager {
             int startDay;
             if (dstObject.getStart_week_day() != null & dstObject.getEnd_week_day() != null) {
                 String startWeekDay = dstObject.getStart_week_day().toUpperCase();
-                startDay = getDayFromWeekDay(startWeekDay, startMonth, year);// ie; LSAT_SUNDAY 28
+                startDay = getDayFromWeekDay(startWeekDay, startMonth, year);
             } else {
                 startDay = dstObject.getStart_day();
             }

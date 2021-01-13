@@ -239,15 +239,15 @@ public class RNPushNotificationHelper {
             e.printStackTrace();
         }
         if (notificationDataObject != null) {
-            Calendar userDateCalendar = Calendar.getInstance(); // OCT 31 9:00:00:AM
+            Calendar userDateCalendar = Calendar.getInstance();
             userDateCalendar.setTimeInMillis(getNotificationDateFromUser());
-            Calendar newDateCalendar = Calendar.getInstance(); // NOV 1
+            Calendar newDateCalendar = Calendar.getInstance();
             newDateCalendar.setTimeInMillis(Calendar.getInstance().getTimeInMillis());
 
             newDateCalendar.set(Calendar.HOUR, userDateCalendar.get(Calendar.HOUR));
             newDateCalendar.set(Calendar.MINUTE, userDateCalendar.get(Calendar.MINUTE));
             newDateCalendar.set(Calendar.SECOND, userDateCalendar.get(Calendar.SECOND));
-            newDateCalendar.set(Calendar.MILLISECOND, userDateCalendar.get(Calendar.MILLISECOND)); //NOV 1 9:AM
+            newDateCalendar.set(Calendar.MILLISECOND, userDateCalendar.get(Calendar.MILLISECOND));
 
             notificationDataObject.setFireDate(newDateCalendar.getTimeInMillis());
             String newNotificationDataString = new Gson().toJson(notificationDataObject);
