@@ -80,11 +80,11 @@ public class DSTManager {
             } else {
                 scheduleDSTBroadcastForNextYear(context);
             }
-            resetNotificationDateInLibrary(context);
+            resetNotificationDate(context);
         }
     }
 
-    private void resetNotificationDateInLibrary(Context context) {
+    private void resetNotificationDate(Context context) {
         RNPushNotificationHelper rnPushNotificationHelper = new RNPushNotificationHelper(context);
         rnPushNotificationHelper.resetNotificationDate();
     }
