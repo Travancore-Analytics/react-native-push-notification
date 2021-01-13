@@ -1,0 +1,1012 @@
+[
+  {
+    "country": "Akrotiri and Dhekelia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Asia/Famagusta",
+      "Asia/Nicosia"
+    ]
+  },
+  {
+    "country": "Albania",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Tirane"
+    ]
+  },
+  {
+    "country": "Andorra",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Andorra"
+    ]
+  },
+  {
+    "country": "Australia",
+    "start_week_day": "First Sunday",
+    "start_month_index": 9,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 3,
+    "end_time": 3,
+    "TimeZones": [
+      "Australia/Lord_Howe",
+      "Antarctica/Macquarie",
+      "Australia/Hobart",
+      "Australia/Currie",
+      "Australia/Melbourne",
+      "Australia/Sydney",
+      "Australia/Broken_Hill",
+      "Australia/Brisbane",
+      "Australia/Lindeman",
+      "Australia/Adelaide",
+      "Australia/Darwin",
+      "Australia/Perth",
+      "Australia/Eucla"
+    ]
+  },
+  {
+    "country": "Austria",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Vienna"
+    ]
+  },
+  {
+    "country": "Bahamas",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/Nassau"
+    ]
+  },
+  {
+    "country": "Belgium",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Brussels"
+    ]
+  },
+  {
+    "country": "Bermuda",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "Atlantic/Bermuda"
+    ]
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Sarajevo"
+    ]
+  },
+  {
+    "country": "Bulgaria",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Sofia"
+    ]
+  },
+  {
+    "country": "Canada",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/St_Johns",
+      "America/Halifax",
+      "America/Glace_Bay",
+      "America/Moncton",
+      "America/Goose_Bay",
+      "America/Blanc-Sablon",
+      "America/Toronto",
+      "America/Nipigon",
+      "America/Thunder_Bay",
+      "America/Iqaluit",
+      "America/Pangnirtung",
+      "America/Atikokan",
+      "America/Winnipeg",
+      "America/Rainy_River",
+      "America/Resolute",
+      "America/Rankin_Inlet",
+      "America/Regina",
+      "America/Swift_Current",
+      "America/Edmonton",
+      "America/Cambridge_Bay",
+      "America/Yellowknife",
+      "America/Inuvik",
+      "America/Creston",
+      "America/Dawson_Creek",
+      "America/Fort_Nelson",
+      "America/Vancouver",
+      "America/Whitehorse",
+      "America/Dawson"
+    ]
+  },
+  {
+    "country": "Chile",
+    "start_week_day": "First Sunday",
+    "start_time": 0,
+    "end_week_day": "First Sunday",
+    "end_month_index": 3,
+    "end_time": 0,
+    "TimeZones": [
+      "America/Santiago",
+      "Pacific/Easter"
+    ]
+  },
+  {
+    "country": "Croatia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Zagreb"
+    ]
+  },
+  {
+    "country": "Cuba",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 1,
+    "TimeZones": [
+      "America/Havana"
+    ]
+  },
+  {
+    "country": "Cyprus",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Asia/Famagusta",
+      "Asia/Nicosia"
+    ]
+  },
+  {
+    "country": "Czechia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Prague"
+    ]
+  },
+  {
+    "country": "Denmark",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Copenhagen"
+    ]
+  },
+  {
+    "country": "Estonia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Tallinn"
+    ]
+  },
+  {
+    "country": "Faroe Islands",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Atlantic/Faroe"
+    ]
+  },
+  {
+    "country": "Fiji",
+    "start_week_day": "third Sunday",
+    "start_month": "December",
+    "start_month_index": 11,
+    "start_time": 2,
+    "end_week_day": "Second Sunday",
+    "end_month": "January",
+    "end_month_index": 0,
+    "end_time": 3,
+    "TimeZones": [
+      "Pacific/Fiji"
+    ]
+  },
+  {
+    "country": "Finland",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Helsinki"
+    ]
+  },
+  {
+    "country": "France",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Paris"
+    ]
+  },
+  {
+    "country": "Germany",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Berlin",
+      "Europe/Busingen"
+    ]
+  },
+  {
+    "country": "Greece",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Athens"
+    ]
+  },
+  {
+    "country": "Greenland",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "America/Godthab",
+      "America/Danmarkshavn",
+      "America/Scoresbysund",
+      "America/Thule"
+    ]
+  },
+  {
+    "country": "Guernsey",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Guernsey"
+    ]
+  },
+  {
+    "country": "Haiti",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/Port-au-Prince"
+    ]
+  },
+  {
+    "country": "Holy See",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Vatican"
+    ]
+  },
+  {
+    "country": "Vatican City",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Vatican"
+    ]
+  },
+  {
+    "country": "Hungary",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Budapest"
+    ]
+  },
+  {
+    "country": "Ireland",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Dublin"
+    ]
+  },
+  {
+    "country": "Isle of Man",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Isle_of_Man"
+    ]
+  },
+  {
+    "country": "Israel",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 2,
+    "TimeZones": [
+      "Asia/Jerusalem"
+    ]
+  },
+  {
+    "country": "Italy",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Rome"
+    ]
+  },
+  {
+    "country": "Jersey",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Jersey"
+    ]
+  },
+  {
+    "country": "Jordan",
+    "start_week_day": "Last Friday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Friday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Asia/Amman"
+    ]
+  },
+  {
+    "country": "Kosovo",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Belgrade"
+    ]
+  },
+  {
+    "country": "Latvia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Riga"
+    ]
+  },
+  {
+    "country": "Lebanon",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 0,
+    "TimeZones": [
+      "Asia/Beirut"
+    ]
+  },
+  {
+    "country": "Liechtenstein",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Vaduz"
+    ]
+  },
+  {
+    "country": "Lithuania",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Vilnius"
+    ]
+  },
+  {
+    "country": "Luxembourg",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Luxembourg"
+    ]
+  },
+  {
+    "country": "Malta",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Malta"
+    ]
+  },
+  {
+    "country": "Mexico",
+    "start_week_day": "First Sunday",
+    "start_month": "April",
+    "start_time": 2,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 2,
+    "TimeZones": [
+      "America/Mexico_City",
+      "America/Cancun",
+      "America/Merida",
+      "America/Monterrey",
+      "America/Matamoros",
+      "America/Mazatlan",
+      "America/Chihuahua",
+      "America/Ojinaga",
+      "America/Hermosillo",
+      "America/Tijuana",
+      "America/Bahia_Banderas"
+    ]
+  },
+  {
+    "country": "Moldova",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 3,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 2,
+    "TimeZones": [
+      "Europe/Chisinau"
+    ]
+  },
+  {
+    "country": "Monaco",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Monaco"
+    ]
+  },
+  {
+    "country": "Montenegro",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Podgorica"
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Amsterdam"
+    ]
+  },
+  {
+    "country": "New Zealand",
+    "start_week_day": "Last Sunday",
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 3,
+    "end_time": 3,
+    "TimeZones": [
+      "Pacific/Auckland",
+      "Pacific/Chatham"
+    ]
+  },
+  {
+    "country": "Norfolk Island",
+    "start_week_day": "First Sunday",
+    "start_month_index": 9,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 3,
+    "end_time": 2,
+    "TimeZones": [
+      "Pacific/Norfolk"
+    ]
+  },
+  {
+    "country": "North Macedonia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 2,
+    "TimeZones": [
+      "Europe/Skopje"
+    ]
+  },
+  {
+    "country": "Norway",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Oslo"
+    ]
+  },
+  {
+    "country": "Palestine",
+    "start_week_day": "Last Saturday",
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_week_day": "Last Saturday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Asia/Jerusalem"
+    ]
+  },
+  {
+    "country": "Paraguay",
+    "start_week_day": "First Sunday",
+    "start_month_index": 9,
+    "start_time": 0,
+    "end_week_day": "Fourth Sunday",
+    "end_month": "March",
+    "end_month_index": 2,
+    "end_time": 0,
+    "TimeZones": [
+      "America/Asuncion"
+    ]
+  },
+  {
+    "country": "Poland",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Warsaw"
+    ]
+  },
+  {
+    "country": "Portugal",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Lisbon",
+      "Atlantic/Madeira",
+      "Atlantic/Azores"
+    ]
+  },
+  {
+    "country": "Romania",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Bucharest"
+    ]
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/Miquelon"
+    ]
+  },
+  {
+    "country": "Samoa",
+    "start_week_day": "Last Sunday",
+    "start_time": 3,
+    "end_week_day": "First Sunday",
+    "end_month_index": 3,
+    "end_time": 4,
+    "TimeZones": [
+      "Pacific/Apia"
+    ]
+  },
+  {
+    "country": "San Marino",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/San_Marino"
+    ]
+  },
+  {
+    "country": "Serbia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Belgrade"
+    ]
+  },
+  {
+    "country": "Slovakia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Bratislava"
+    ]
+  },
+  {
+    "country": "Slovenia",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Ljubljana"
+    ]
+  },
+  {
+    "country": "Spain",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Madrid",
+      "Africa/Ceuta",
+      "Atlantic/Canary"
+    ]
+  },
+  {
+    "country": "Sweden",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Stockholm"
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Zurich"
+    ]
+  },
+  {
+    "country": "Syria",
+    "start_week_day": "Last Friday",
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_week_day": "Last Friday",
+    "end_month_index": 9,
+    "end_time": 0,
+    "TimeZones": [
+      "Asia/Damascus"
+    ]
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/Grand_Turk"
+    ]
+  },
+  {
+    "country": "Ukraine",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "Europe/Kiev",
+      "Europe/Uzhgorod",
+      "Europe/Zaporozhye"
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "start_week_day": "Last Sunday",
+    "start_month_index": 2,
+    "start_time": 1,
+    "end_week_day": "Last Sunday",
+    "end_month_index": 9,
+    "end_time": 1,
+    "TimeZones": [
+      "America/New_York",
+      "America/Detroit",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Vevay",
+      "America/Chicago",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Knox",
+      "America/Menominee",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/North_Dakota/Beulah",
+      "America/Denver",
+      "America/Boise",
+      "America/Phoenix",
+      "America/Los_Angeles",
+      "America/Anchorage",
+      "America/Juneau",
+      "America/Sitka",
+      "America/Metlakatla",
+      "America/Yakutat",
+      "America/Nome",
+      "America/Adak",
+      "Pacific/Honolulu"
+    ]
+  },
+  {
+    "country": "United States",
+    "start_week_day": "Second Sunday",
+    "start_month_index": 2,
+    "start_time": 2,
+    "end_week_day": "First Sunday",
+    "end_month_index": 10,
+    "end_time": 2,
+    "TimeZones": [
+      "America/New_York",
+      "America/Detroit",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Vevay",
+      "America/Chicago",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Knox",
+      "America/Menominee",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/North_Dakota/Beulah",
+      "America/Denver",
+      "America/Boise",
+      "America/Phoenix",
+      "America/Los_Angeles",
+      "America/Anchorage",
+      "America/Juneau",
+      "America/Sitka",
+      "America/Metlakatla",
+      "America/Yakutat",
+      "America/Nome",
+      "America/Adak",
+      "Pacific/Honolulu"
+    ]
+  },
+  {
+    "country": "Greenland",
+    "start_week_day": "Last Saturday",
+    "start_month_index": 2,
+    "start_time": 22,
+    "end_week_day": "Last Saturday",
+    "end_month_index": 9,
+    "end_time": 22,
+    "TimeZones": [
+      "America/Thule",
+      "America/Nuuk",
+      "America/Scoresbysund",
+      "America/Danmarkshavn"
+    ]
+  },
+  {
+    "country": "Iran",
+    "start_day": 21,
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_day": 21,
+    "end_month_index": 8,
+    "end_time": 0,
+    "TimeZones": [
+      "Asia/Tehran"
+    ]
+  },
+  {
+    "country": "Iran",
+    "start_day": 22,
+    "start_month_index": 2,
+    "start_time": 0,
+    "end_day": 22,
+    "end_month_index": 8,
+    "end_time": 0,
+    "TimeZones": [
+      "Asia/Tehran"
+    ]
+  }
+]
