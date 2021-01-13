@@ -163,8 +163,8 @@ public class RNPushNotificationAttributes {
             group = jsonObject.has(GROUP) ? jsonObject.getString(GROUP) : null;
             groupSummary = jsonObject.has(GROUP_SUMMARY) ? jsonObject.getBoolean(GROUP_SUMMARY) : false;
             messageId = jsonObject.has(MESSAGE_ID) ? jsonObject.getString(MESSAGE_ID) : null;
-            playSound = !jsonObject.has(PLAY_SOUND) || jsonObject.getBoolean(PLAY_SOUND);
-            vibrate = !jsonObject.has(VIBRATE) || jsonObject.getBoolean(VIBRATE);
+            playSound = jsonObject.has(PLAY_SOUND) ? jsonObject.getBoolean(PLAY_SOUND) : true;
+            vibrate = jsonObject.has(VIBRATE) ? jsonObject.getBoolean(VIBRATE) : true;
             vibration = jsonObject.has(VIBRATION) ? jsonObject.getDouble(VIBRATION) : 1000;
             actions = jsonObject.has(ACTIONS) ? jsonObject.getString(ACTIONS) : null;
             invokeApp = jsonObject.has(INVOKE_APP) ? jsonObject.getBoolean(INVOKE_APP) : true;

@@ -671,11 +671,7 @@ public class RNPushNotificationHelper {
                 Log.d(LOG_TAG, String.format("Repeating notification with id %s at time %s",
                         bundle.getString("id"), Long.toString(newFireDate)));
                 bundle.putDouble("fireDate", newFireDate);
-
-                //added condition to avoid back-date
-                if (newFireDate > System.currentTimeMillis()) {
-                    this.sendNotificationScheduled(bundle);
-                }
+                this.sendNotificationScheduled(bundle);
             }
         }
     }
