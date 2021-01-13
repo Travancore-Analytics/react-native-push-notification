@@ -14,6 +14,7 @@ import static com.dieam.reactnativepushnotification.modules.RNPushNotification.L
 
 public class RNPushNotificationPublisher extends BroadcastReceiver {
     final static String NOTIFICATION_ID = "notificationId";
+    private static int ONE_MINUTE = 60000;
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -26,7 +27,10 @@ public class RNPushNotificationPublisher extends BroadcastReceiver {
 
         Log.v(LOG_TAG, "onMessageReceived: " + bundle);
 
-        handleLocalNotification(context, bundle);
+        long fireDate = (long) bundle.getDouble("fireDate");
+        if (fireDate + ONE_MINUTE > System.currentTimeMillis()) {
+            handleLocalNotification(context, bundle);
+        }
     }
 
     private void handleLocalNotification(Context context, Bundle bundle) {
