@@ -26,8 +26,8 @@ public class RNPushNotificationPublisher extends BroadcastReceiver {
         final Bundle bundle = intent.getExtras();
 
         Log.v(LOG_TAG, "onMessageReceived: " + bundle);
-        long fireDate = (long) bundle.getDouble("fireDate");
 
+        long fireDate = (long) bundle.getDouble("fireDate");
         if (fireDate + ONE_MINUTE > System.currentTimeMillis()) {
             handleLocalNotification(context, bundle);
         }
