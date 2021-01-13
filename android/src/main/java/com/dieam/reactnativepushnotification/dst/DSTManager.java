@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import com.dieam.reactnativepushnotification.R;
 import com.dieam.reactnativepushnotification.dst.models.DSTData;
 import com.dieam.reactnativepushnotification.modules.RNPushNotificationHelper;
 import com.google.gson.Gson;
@@ -194,7 +195,7 @@ public class DSTManager {
     public JSONArray getDSTData(Context context) {
         JSONArray jsonObject;
         try {
-            InputStream is = context.getAssets().open("world_dst_data.json");
+            InputStream is = context.getResources().openRawResource(R.raw.world_dst_data);
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
