@@ -191,9 +191,12 @@ public class RNPushNotificationHelper {
 
     public Long getNotificationDateFromUser() {
         String notiDataFromUser = getPrefs().getString(USER_NOTIFICATION_DATA, null);
-        RNPushNotificationAttributes rnPushNotificationAttributes
-                = new Gson().fromJson(notiDataFromUser, RNPushNotificationAttributes.class);
-        return (long) rnPushNotificationAttributes.getFireDate();
+        if (notiDataFromUser != null) {
+            RNPushNotificationAttributes rnPushNotificationAttributes
+                    = new Gson().fromJson(notiDataFromUser, RNPushNotificationAttributes.class);
+            return (long) rnPushNotificationAttributes.getFireDate();
+        }
+        return 0L;
     }
 
     public String getCurrentNotificationId() {
