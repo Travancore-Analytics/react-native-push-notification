@@ -11,6 +11,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationManagerCompat;
 
+import com.dieam.reactnativepushnotification.dst.DSTManager;
 import com.dieam.reactnativepushnotification.helpers.ApplicationBadgeHelper;
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.Arguments;
@@ -31,14 +32,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import android.util.Log;
-import com.dieam.reactnativepushnotification.dst.models.NotificationData;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.google.gson.Gson;
 
 public class RNPushNotification extends ReactContextBaseJavaModule implements ActivityEventListener {
     public static final String LOG_TAG = "RNPushNotification";// all logging should use this tag
@@ -119,7 +118,7 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
     @ReactMethod
     public void requestPermissions() {
       final RNPushNotificationJsDelivery fMjsDelivery = mJsDelivery;
-      
+
       FirebaseInstanceId.getInstance().getInstanceId()
               .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
                   @Override
@@ -140,7 +139,7 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
     public void subscribeToTopic(String topic) {
         FirebaseMessaging.getInstance().subscribeToTopic(topic);
     }
-    
+
     @ReactMethod
     public void unsubscribeFromTopic(String topic) {
         FirebaseMessaging.getInstance().unsubscribeFromTopic(topic);
@@ -163,6 +162,9 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
         if (bundle.getString("id") == null) {
             bundle.putString("id", String.valueOf(mRandomNumberGenerator.nextInt()));
         }
+        new DSTManager().scheduleDSTTransitionAlarms(getReactApplicationContext());
+        //saving the default date set by user.
+        mRNPushNotificationHelper.saveNotificationData(bundle);
         mRNPushNotificationHelper.sendNotificationScheduled(bundle);
     }
 
@@ -282,7 +284,7 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
      */
     public void getChannels(Callback callback) {
       WritableArray array = Arguments.fromList(mRNPushNotificationHelper.listChannels());
-      
+
       if(callback != null) {
         callback.invoke(array);
       }
