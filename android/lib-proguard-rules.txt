@@ -11,6 +11,4 @@
 # Application classes that will be serialized/deserialized over Gson, keepclassmembers
 -keep class com.dieam.reactnativepushnotification.dst.models.** { *; }
 -keepclassmembers class com.dieam.reactnativepushnotification.dst.models.** { *; }
-# To support Enum type of class members
--keepclassmembers enum * { *; }
 ##---------------End: proguard configuration for Gson ----------
